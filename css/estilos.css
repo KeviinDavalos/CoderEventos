@@ -50,6 +50,11 @@ nav ul li a{
     padding: 10px 20px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+nav ul li a:hover{
+    background-color: #BBD6D6;
+    color:black;
+    border-radius: 0.93em;
+}
 
 /* Main */
 main{
@@ -86,6 +91,10 @@ h2, h4{
     background-color: white;
     margin: 1em 0;
     border-radius: 0.7em;
+    transition: all 0.4s;
+}
+.servicioInfo:hover{
+    transform: scale(1.1);
 }
 
 .servicioImg img, .container-img-servicio img{
@@ -110,6 +119,10 @@ iframe{
 
 .container-flex-galeria img{
     width: 100%;
+    transition: all 0.4s;
+}
+.container-flex-galeria img:hover{
+    transform: scale(1.1);
 }
 
 .container-flex-galeria{
